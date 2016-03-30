@@ -1,11 +1,36 @@
 
-.item-button {
-  /*float: right;*/
+body {
+  background-image: url('list-pic.jpg');
+}
+
+.header {
+  text-align: center;
+}
+
+.header-h1 {
+  color: blue;
+}
+
+.header-h2 {
+  margin-top: -20px;
+  color: white;
+}
+
+.my-form {
+  text-align: center;
 }
 
 .task-style {
   background-color: grey;
-  opacity: .75
+  opacity: .75;
+  margin: 0% 25%;
+}
+
+.task-style-h1 {
+  background-color: grey;
+  opacity: .75;
+  margin: 5% 0%;
+
 }
 
 
