@@ -1,10 +1,13 @@
 
 .item-button {
-  float: right;
+  /*float: right;*/
 }
 
 
-
+.task-style {
+  background-color: grey;
+  opacity: .75
+}
 
 
 
