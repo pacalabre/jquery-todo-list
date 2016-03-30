@@ -1,4 +1,5 @@
 
+var listItems = [];
 
 $('#myForm').submit(function(event) {
   event.preventDefault();
@@ -14,7 +15,12 @@ $('#myForm').submit(function(event) {
   });
 })
 
+console.log(listItems);
  // This does work outside of the scope -- ask why above will not work, but this will work
  // $('section').on('click', 'div', function(event) {
  //    $(this).remove();
  //    })
+
+
+//jQueryPlugin - sortable
+$('#listOutput').sortable();
