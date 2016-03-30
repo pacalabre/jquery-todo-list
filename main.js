@@ -6,6 +6,7 @@ $('#myForm').submit(function(event) {
     var value = $(elem).val();
     var eachTask = $('section').append('<div class="task-style"><h1 class="task-style-h1">'+value+'<button class="task-button">X</button>'+'</h1>'+'</div>');
     //This would not work outside of the function
+    $('input').val('');
     $('div').click(function(event) {
     event.preventDefault();
     $(this).remove();
