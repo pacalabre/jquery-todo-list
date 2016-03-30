@@ -1,19 +1,32 @@
 
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Outline);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 body {
   background-image: url('list-pic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
   text-align: center;
+  margin-top: 7%;
 }
 
 .header-h1 {
   color: blue;
+  font-size: 100px;
+  font-family: lobster;
 }
 
 .header-h2 {
-  margin-top: -20px;
+  margin-top: -95px;
   color: white;
+  font-family: permanent marker;
+  font-size: 40px;
 }
 
 .my-form {
@@ -24,12 +37,14 @@ body {
   background-color: grey;
   opacity: .75;
   margin: 0% 25%;
+
 }
 
 .task-style-h1 {
   background-color: grey;
   opacity: .75;
   margin: 5% 0%;
+  padding: 10px 5%;
 
 }
 
