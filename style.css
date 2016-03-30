@@ -70,6 +70,14 @@ padding-left: 2%;
   color: white;
 }
 
+.task-button {
+  float: right;
+  margin-top: 1%;
+  font-family: arial;
+  font-size: 15px;
+  color: black;
+}
+
 
 
 
