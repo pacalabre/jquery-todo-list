@@ -8,22 +8,6 @@ $('#myForm').submit(function(event) {
     $('div').click(function(event) {
     event.preventDefault();
     $(this).remove();
-})
+    })
   });
-
-  })
-
-$('div').click(function(event) {
-  event.preventDefault();
-  console.log("this");
-  //$('this').remove();
 })
-
-// })
-
-
-/*
-$('.item-button').click( function({
-  console.log("button was clicked");
-}))
-*/
